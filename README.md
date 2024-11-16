@@ -2,6 +2,27 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Description
+
+## 项目名称：
+Hinsdesign Component Library
+
+## 项目简介：
+这是一个基于React框架 Typescript和SCSS样式构建的Web组件库，旨在提供一套可复用、风格一致的UI组件，以加速开发流程并保持界面的一致性。该库包含开发常用的组件，并提供了丰富的定制选项。
+
+
+## 技术栈：
+- **React+Typescript**：用于构建用户界面的JavaScript库。
+- **SCSS**：用于样式设计的预处理器，提供变量、混合宏（mixins）、函数等高级功能。
+- **Jest** 和 **@testing-library/react**：用于编写和运行单元测试。
+
+## 功能说明 (部分 其余待开发后补充)：
+- **Button**：`button.tsx`定义了按钮的逻辑和props，支持通过props定制按钮样式和行为。
+- **Menu and SubMenu**：`menu.tsx`和`subMenu.tsx`定义了菜单和子菜单的逻辑，支持垂直和水平布局，以及动态展开和折叠子菜单项。
+- **SCSS Styles**：`styles/`目录包含了SCSS样式文件，定义了组件的样式和动画效果。
+- **Testing**：使用`jest`和`@testing-library/react`进行单元测试，确保组件的正确性和稳定性。
+
+
 ## Available Scripts
 
 In the project directory, you can run:
